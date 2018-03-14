@@ -1,7 +1,10 @@
 abbr g git
 abbr gaa 'git add --all'
 abbr gco 'git checkout'
+abbr gcob 'git checkout -b'
 abbr gci 'git commit -v'
 abbr gdm 'git diff master'
 abbr gddv 'git diff develop'
+abbr gp 'git pull'
+abbr gp! 'git push'
 abbr gwip 'git add --all; git commit -am "WIP"'

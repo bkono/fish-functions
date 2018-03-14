@@ -1,0 +1,1 @@
+/Users/bkonowitz/.config/fisherman/pure/fish_greeting.fish

@@ -1,1 +1,0 @@
-/Users/bkonowitz/.config/fisherman/z/functions/__z.fish

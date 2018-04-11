@@ -1,1 +1,0 @@
-/Users/bkonowitz/.config/fisherman/gitignore/gitignore.fish

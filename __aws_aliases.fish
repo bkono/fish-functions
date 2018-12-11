@@ -1,4 +1,4 @@
-abbr avl 'aws-vault login '
+abbr avl 'aws-vault login'
 
 function ave -d 'aws-vault exec using AWS_VAULT_PROFILE'
     set profile

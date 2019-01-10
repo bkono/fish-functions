@@ -31,3 +31,15 @@ abbr grhh 'git reset HEAD --hard'
 abbr gs 'git status -sb'
 abbr gst 'git status'
 abbr gwip 'git add --all; git commit -am "WIP"'
+
+function gbsu -d 'set git branch upstream to either origin/current_branch or the provided arg' 
+  set branch (git symbolic-ref --short -q HEAD)
+  set target
+  if count $argv > /dev/null
+    set target $argv
+  else
+    set target $branch
+  end
+
+  git branch --set-upstream-to=origin/$target $branch
+end

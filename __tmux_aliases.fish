@@ -1,1 +1,1 @@
-abbr tns 'tmux new-session -AD -s'
+abbr tns 'tmux new-session -ADd -s'
